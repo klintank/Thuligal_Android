@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark_blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/water_drop_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thuligal"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="26sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/border_design"
+                android:id="@+id/edt_storeName"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="15dp"
+                android:maxLength="15"
+                android:maxLines="1"
+                android:hint="@string/store_name"
+                android:gravity="center"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textPersonName"
+                android:background="@drawable/border_design"
+                android:id="@+id/edt_ownerName"
+                android:layout_marginBottom="15dp"
+                android:maxLength="15"
+                android:maxLines="1"
+                android:hint="@string/owner_name"
+                android:gravity="center"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/border_design"
+                android:id="@+id/edt_mobile"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:layout_marginBottom="15dp"
+                android:hint="@string/mobile"
+                android:gravity="center"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/border_design"
+                android:id="@+id/edt_address"
+                android:layout_marginBottom="15dp"
+                android:maxLines="3"
+                android:hint="@string/address"
+                android:gravity="center"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/btn_register"
+                android:text="@string/register"
+                android:textSize="22sp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/border_design_blue"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

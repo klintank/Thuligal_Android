@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name"> Thuligal </string>
+
+    <string name="login"> Login </string>
+    <string name="uregister"> <u> Register </u></string>
+    <string name="register"> Register </string>
+    <string name="submit"> Submit </string>
+    <string name="update"> Update </string>
+
+    <string name="username"> Username </string>
+    <string name="password"> Password </string>
+
+    <string name="store_name"> Store Name </string>
+    <string name="owner_name"> Owner Name </string>
+    <string name="mobile"> Mobile </string>
+    <string name="address"> Address </string>
+
+    <string name="new_order"> New Order </string>
+    <string name="cancel_order"> Cancel Order </string>
+    <string name="history"> Order History </string>
+    <string name="make_order"> Make Order </string>
+
+    <string name="customer_name"> Customer Name </string>
+    <string name="no_num"> No of Cans </string>
+
+    <string name="show_password"> Show Password </string>
+    <string name="success"> Success </string>
+    <string name="ok"> Ok </string>
+    <string name="available_stock"> Available Cans </string>
+    <string name="can_count"> Current Can Count </string>
+
+</resources>

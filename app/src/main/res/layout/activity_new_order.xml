@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark_blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/order_icon"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/border_design"
+                android:id="@+id/edt_customerName"
+                android:maxLength="15"
+                android:maxLines="1"
+                android:hint="@string/customer_name"
+                android:gravity="center"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/border_design"
+                android:id="@+id/edt_canNo"
+                android:maxLength="2"
+                android:maxLines="1"
+                android:inputType="number"
+                android:layout_marginTop="20dp"
+                android:hint="@string/no_num"
+                android:gravity="center"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/border_design"
+                android:id="@+id/edt_mobile"
+                android:layout_marginTop="20dp"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:hint="@string/mobile"
+                android:gravity="center"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/border_design"
+                android:id="@+id/edt_address"
+                android:layout_marginTop="20dp"
+                android:hint="@string/address"
+                android:maxLines="3"
+                android:gravity="center"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/btn_order"
+                android:text="@string/make_order"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/border_design_blue"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
